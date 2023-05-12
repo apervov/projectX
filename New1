@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="url" value="https://diag.nsystools.com"/>
+    <add key="apiUrl" value="https://api.nsystools.com"/>
+    <add key="start_panel_url" value="" />
+    
+	<!--add key="request_timeout" value="5000" /--> 
+    <add key="url_list" value="https://nstst.net;http://u0345675.plsk.regruhosting.ru;http://localhost:61680;"/>
+    <add key="proxy_addr" value=""/>
+    <add key="proxy_user" value=""/>
+    <add key="proxy_pass" value=""/>
+
+    <add key="adbcontrol_path" value="_ADBControl"/>
+    <add key="ioscontrol_path" value="_iOSControl"/>
+
+    <add key="apk_id" value="com.nsysgroup.nsystest" />
+    <add key="apk_path" value="_MobileApp\nsystest.apk" />
+    <add key="app_id" value="volkovka.nsysgroup.nsystest" />
+    <add key="app_path" value="_MobileApp\nsystest.ipa" />
+    <add key="app_id_T" value="com.nsysgroup.nsystest" />
+    <add key="app_path_T" value="_MobileApp\nsystestT.ipa" />
+
+    <add key="supervisor_loop_interval" value="2000"/>
+    <add key="supervisor_attempts" value="5"/>
+    <add key="socket_device_port" value="2345"/>
+    <add key="process_loop_interval" value="3000"/>
+
+    <add key="local_history_remove_period" value="30"/> <!--days count to remove local history-->
+    <add key="session_active_period" value="400"/>
+  </appSettings>
+</configuration>
